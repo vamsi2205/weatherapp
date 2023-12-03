@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
         url('https://github.com/vamsi2205/weatherapp/blob/main/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg?raw=true') center/cover;
     color: #fff;
 }
