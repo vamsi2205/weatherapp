@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('"C:\Users\krish\OneDrive - Indian Institute of Technology Guwahati\Documents\VS Code\Dev Roadmap\360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg"') center/cover;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.forecast-item {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item p {
+    margin: 10px 0;
+}
